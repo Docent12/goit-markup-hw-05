@@ -480,6 +480,7 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--lightslate);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .custom-link:hover {
   color: var(--ocean);
