@@ -38,7 +38,7 @@ img {
   padding: 0;
 }
 
-/* *================ Hover and Focus  Studio and Folio ======== */
+/* *================ Hover and Focus  Studio and Folio ang Footer ======== */
 
 .hero-btn:hover {
   background-color: var(--ocean);
@@ -87,6 +87,12 @@ img {
 }
 .socialnwrk-link:focus {
   background-color: var(--ocean);
+}
+.fsocialnrk-link:hover {
+  background-color: var(--green);
+}
+.fsocialnrk-link:focus {
+  background-color: var(--green);
 }
 
 /* * ===================== START =============================== */
@@ -246,7 +252,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-/** -------------FEATURES---------------- */
+/** ================= FEATURES =============== */
 
 .features {
   padding: 120px 0;
@@ -307,7 +313,7 @@ body {
   color: var(--slate);
 }
 
-/** -------------OURJOB---------------- */
+/** ============= OURJOB =============== */
 .ourjob {
   padding-bottom: 120px;
 }
@@ -342,7 +348,7 @@ body {
   gap: 24px;
 }
 
-/** -------------OURTEAM---------------- */
+/** ================= OURTEAM ============= */
 .ourteam {
   background-color: var(--cloud);
 
@@ -488,7 +494,7 @@ body {
   fill: currentColor;
 }
 
-/** -------------FOOTER---------------- */
+/** ================= FOOTER =============== */
 .footer {
   background: var(--navybluemodal);
   padding: 100px 0;
@@ -554,19 +560,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.fsocialnrk-link:hover {
-  background-color: var(--green);
-}
-.fsocialnrk-link:focus {
-  background-color: var(--green);
-}
+
 
 .fsocialnrk-icon {
   fill: var(--cloud);
 }
 
-/* *-----------Portfolio BTN---------- */
+/** ================ Portfolio BTN ================= */
 
 .ourworks {
   padding: 96px 0 120px;
@@ -614,7 +616,7 @@ body {
   border-radius: 4px;
 }
 
-/* *------------Prtfolio Works IMG-h3-Text------------ */
+/** =============== Prtfolio Works IMG-h3-Text ================ */
 
 .works-list {
   display: flex;
