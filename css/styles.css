@@ -640,6 +640,27 @@ body {
 .work-list-link {
   display: block;
 }
+.work-list-wrap{
+  position: relative;
+  overflow: hidden;
+}
+.work-list-link:hover .work-list-text{
+  transform: translateY(0); 
+}
+.work-list-text{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  padding-top: 40px;
+  padding-left: 32px;
+  color: var(--cloud);
+  background-color: var(--iris);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  transform: translateY(100%);
+  transition: transform 300ms linear;
+}
 
 .works-list-title {
   margin-bottom: 8px;
